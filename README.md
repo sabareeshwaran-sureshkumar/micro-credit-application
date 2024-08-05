@@ -44,6 +44,7 @@ This application predicts loan approval based on user details. It features a Fla
    python main.py
    ```
 4. Connect the database:
+   Open a new terminal
    ```bash
    cd server>
    npm run start
@@ -56,8 +57,9 @@ This application predicts loan approval based on user details. It features a Fla
 ### Frontend
 
 1. Navigate to the frontend directory:
+    open a new terminal 
    ```bash
-   cd ../frontend
+   cd client
    ```
 
 2. Install the required packages:
@@ -67,7 +69,7 @@ This application predicts loan approval based on user details. It features a Fla
 
 3. Start the React application:
    ```bash
-   npm start
+   npm run start
    ```
 
 ## Usage
@@ -75,41 +77,14 @@ This application predicts loan approval based on user details. It features a Fla
 1. Ensure both the Flask backend and React frontend are running.
 2. Open your web browser and go to `http://localhost:3000`.
 3. Fill in the loan application form and submit it.
-4. The prediction result will be displayed on the homepage.
+4. Click on the apply loan and entern your pan_card and mobile_number .
+5. Click on Submit button.
+6. The prediction result will be displayed on the homepage.
 
-## Project Structure
 
-```
-loan-approval-prediction/
-│
-├── backend/
-│   ├── app.py
-│   ├── model.py
-│   ├── requirements.txt
-│   └── ... (other backend files)
-│
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── App.js
-│   │   ├── index.js
-│   │   └── ... (other frontend files)
-│   ├── package.json
-│   └── ... (other frontend files)
-│
-├── README.md
-└── ... (other project files)
-```
 
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-## License
 
-This project is licensed under the MIT License.
-
----
-
-Feel free to customize this README to better fit your project and requirements.
