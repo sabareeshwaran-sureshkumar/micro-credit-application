@@ -35,7 +35,7 @@ This application predicts loan approval based on user details. It features a Fla
 
 2. Install the required packages:
    ```bash
-   pip install -r requirements.txt
+   pip install <package name>
    ```
 
 3. Run the Flask application:
