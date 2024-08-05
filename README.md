@@ -1,6 +1,4 @@
-Here's the combined `README.md` file incorporating the details from both provided sections:
 
-```markdown
 # micro-credit-application
 
 # Loan Approval Prediction Application
