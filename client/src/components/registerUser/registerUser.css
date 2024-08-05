@@ -1,0 +1,106 @@
+body {
+    background-color: #ffcfc8dd;       /* Light gray */
+    color: #000; /* Black text for readability */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Ensure consistent font styling */
+}
+.wrapper {
+    width: 420px;
+    background-color: #1a1a1a; /* Dark background color */
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(30px);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.wrapper h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #ff6347; /* Tomato color for a pop of color */
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 3px solid rgba(255, 255, 255, .3);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff; /* White text for readability */
+    padding: 0 40px 0 30px; /* Add padding to prevent text overlap with icon */
+}
+
+.input-box input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Light placeholder color */
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #ff6347; /* Match icon color with heading */
+}
+
+.wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px 0;
+}
+
+.remember-forgot {
+    accent-color: #fff;
+    margin-right: 4px;    
+}
+
+.remember-forgot a {
+    color: #ff6347; /* Tomato color for links */
+    text-decoration: underline;
+}
+
+.wrapper button {
+    width: 100%;
+    height: 45px;
+    background: #ff6347; /* Tomato color for button background */
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    font-size: 16px;
+    color: #fff; /* White text for readability */
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.wrapper button:hover {
+    background: #e5533d; /* Slightly darker tomato color on hover */
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+}
+
+.wrapper .register-link {
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.register-link p a { 
+    color: #ff6347; /* Tomato color for registration link */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link p a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,94 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black; /* Black background for the entire page */
+    color: white; /* Default text color to white */
+}
+
+.container {
+    background: #333; /* Darker background for the container to stand out */
+    padding: 45px;
+    width: 80vw;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow-y: auto;
+    border-radius: 8px; /* Optional: rounded corners for the container */
+}
+
+.form-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #fff; /* White color for the form title */
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.input-group {
+    flex: 1 1 calc(33.333% - 10px);
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #fff; /* White color for the labels */
+    font-size: 14px;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 1px solid #555; /* Darker border color for the input fields */
+    border-radius: 4px;
+    background-color: #efe7e7; /* Dark background for the input fields */
+    color: black; /* White color for the text inside input fields */
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus,
+.input-group select:focus {
+    border-color: #007bff; /* Border color on focus */
+    outline: none;
+}
+
+.input-group textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    display: block;
+    margin: 20px auto 0;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .input-group {
+        flex: 1 1 100%;
+    }
+}
