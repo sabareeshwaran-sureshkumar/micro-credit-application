@@ -8,7 +8,7 @@
 This application predicts loan approval based on user details. It features a Flask backend for handling predictions and a React frontend for user interaction.
 
 ## Technologies Used
-- **Database**: MongoDB
+- **Database**: MongoDB Atlas
 - **Backend**: Flask
 - **Frontend**: React.js
 - **Styling**: CSS
