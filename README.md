@@ -47,6 +47,14 @@ This application predicts loan approval based on user details. It features a Fla
    Open a new terminal
    ```bash
    cd server>
+   ```
+5. Install the required packages:
+   ```bash
+   npm install
+   ```
+
+6. Connection establishment:
+   ```bash
    npm run start
    ```
    
