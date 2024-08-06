@@ -23,6 +23,60 @@ This application predicts loan approval based on user details. It features a Fla
 - React
 - Sklearn
 
+
+## Database Schema
+
+### Collections
+
+#### Users
+- `fullName`: String, required
+- `email`: String, required, unique
+- `mobileNumber`: String, required
+- `address`: String, required
+- `age`: Number, required
+- `gender`: String, enum: ["Male", "Female", "Other"], required
+- `maritalStatus`: String, enum: ["Single", "Married", "Divorced", "Widowed"], required
+- `numberOfDependents`: Number, required
+- `educationLevel`: String, required
+- `panNumber`: String, required, unique
+- `ownsHouse`: Boolean, required
+- `company`: String, required
+- `designation`: String, required
+- `dateOfJoining`: Date, required
+- `employmentType`: String, enum: ["Full-time", "Part-time", "Contract"], required
+- `workLocation`: String, required
+- `employmentStatus`: String, enum: ["Employed", "Unemployed", "Self-employed", "Retired"], required
+- `currentSalary`: Number, required
+- `previousSalary`: Number, required
+- `prevHikeDate`: Date, required
+- `nextHikeDate`: Date, required
+- `yearsAtCurrentJob`: Number, required
+- `bankName`: String, required
+- `bankAccountBalances`: Number, required
+- `repaymentType`: String, required
+- `alternateContact`: String, required
+- `employerContact`: String, required
+- `groceryExpense`: Number, required
+- `rentAmount`: Number, required
+- `currentEMIs`: Number, required
+- `otherExpense`: Number, required
+- `loanAmount`: Number, required
+- `repaymentPeriod`: Number, required
+- `existingLoans`: Number, required
+- `loanPurpose`: String, required
+- `creditScore`: Number, required
+- `timestamps`: 
+  - `createdAt`: Date
+  - `updatedAt`: Date
+
+---
+
+##Working of Application - Demo
+<video width="600" controls>
+  <source src="sample_video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ## Installation
 
 ### Backend
