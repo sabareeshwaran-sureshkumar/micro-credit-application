@@ -70,12 +70,10 @@ This application predicts loan approval based on user details. It features a Fla
   - `updatedAt`: Date
 
 ---
+## Demo Video
 
-##Working of Application - Demo
-<video width="600" controls>
-  <source src="sample_video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Demo Video](images/thumbnail.png)](https://github.com/user-attachments/assets/820c3b3f-49a8-44d3-be4d-9610fe85959c)
+
 
 ## Installation
 
